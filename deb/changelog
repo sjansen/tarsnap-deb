@@ -1,0 +1,5 @@
+tarsnap (${VERSION}-1) unstable; urgency=low
+
+  * Initial package
+
+ -- Stuart Jansen <sjansen@buscaluz.org>  Fri, 16 May 2014 12:47:49 +0000

@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_installdocs:
+	dh_installdocs
+	mv debian/tarsnap/etc/tarsnap.conf.sample debian/tarsnap/usr/share/doc/tarsnap/

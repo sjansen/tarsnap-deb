@@ -1,0 +1,3 @@
+tarsnap binary: description-starts-with-package-name
+tarsnap binary: new-package-should-close-itp-bug
+tarsnap binary: possible-gpl-code-linked-with-openssl

@@ -1,0 +1,16 @@
+Source: tarsnap
+Section: non-free/utils
+Priority: extra
+Maintainer: Stuart Jansen <sjansen@buscaluz.org>
+Build-Depends: debhelper (>= 8.0.0),
+ libssl-dev, zlib1g-dev, e2fslibs-dev
+Standards-Version: 3.9.2
+Homepage: https://www.tarsnap.com/
+
+Package: tarsnap
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Client software for the Tarsnap online backup service
+ Tarsnap is a secure online backup service. The Tarsnap client code
+ provides a flexible and powerful command-line interface which can be
+ used directly or via shell scripts.

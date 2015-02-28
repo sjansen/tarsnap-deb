@@ -1,0 +1,7 @@
+/tarsnap-*
+/*.changes
+/*.deb
+/*.dsc
+/*.tar.gz
+/*.tgz
+.*.sw[op]
