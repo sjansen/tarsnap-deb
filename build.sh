@@ -2,7 +2,7 @@
 
 set -e
 PACKAGE=tarsnap
-VERSION=1.0.35
+VERSION=1.0.36.1
 
 if [ -n "$1" ]; then
     VERSION="$1"
